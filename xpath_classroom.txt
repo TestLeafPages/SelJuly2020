@@ -1,0 +1,52 @@
+Relative xpath:
+=================
+xpath with tagName only
+//<tagName>  
+//h2
+
+Attribute Based xpath
+==================
+//tagName[@<attributeName>='attribute value']
+//input[@id='username']
+
+Multiple attribute
+==================
+//input[@name='companyName'][@id='createLeadForm_companyName']
+
+//input[@name='companyName123' and @id='createLeadForm_companyName']
+
+//input[@name='companyName123' or @id='createLeadForm_companyName']
+
+Collection Based xpath:
+===================
+
+(xpath)[index]
+
+(//input)[2]
+
+(//input[@class='inputLogin' )[2]
+
+(//input[@class='inputLogin' and @type='password'])[1]
+
+Text Based Xpath:
+====================
+
+//tagName[text()='text value']
+
+//label[text()='Username']
+
+
+Partial Match xpath:
+
+//label[contains(text(),'User')]
+
+//input[contains(@id,'pass')]
+
+
+//label[@for='username']
+
+
+
+
+
+

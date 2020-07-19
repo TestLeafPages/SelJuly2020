@@ -1,0 +1,58 @@
+Parent to Child:
+====================
+//form[@id='login']/p
+
+xpath-parent / tagName of the child[index]
+
+GrandParent to GrandChild
+=====================
+xpath for GrandParent //tagName of the GrandChild
+
+//form[@id='login']//label
+
+(//form[@id='login']//label)[2]
+
+Child to Parent
+=====================
+xpath for child /parent::tagName of the parent
+xpath for child/..
+
+//label[text()='Password']/parent::p
+//label[text()='Password']/..
+
+GrandChild to GrandParent
+=======================
+xpath for GrandChild/ancestor::tagName of the GrandParent[index]
+
+//input[@id='username']/ancestor::form[1]
+xpath for GrandChild/../..
+
+
+Elder sibling to Younger sibling:
+=========================
+xpath of the elder sibling/following-sibling::tagName of younger
+
+//label[text()='Username']/following-sibling::input
+
+Younger Sibling to Elder Sibling:
+=========================
+xpath of the younger sibling/preceding-sibling::tagName of the elder
+
+//input[@id='password']/preceding-sibling::label
+
+Elder Cousin to Younger Cousin
+=========================
+
+xpath of the Elder Cousin/following::tagname of the younger cousin
+
+//input[@id='username']/following::label
+
+Younger Cousin to Elder Cousin
+==========================
+xpath of the younger Cousin/preceding::tagName of the elder cousin[index]
+//input[@id='password']/preceding::label[1]
+
+
+
+
+
