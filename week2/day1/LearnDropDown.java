@@ -58,15 +58,14 @@ public class LearnDropDown {
 		
 		List<WebElement> options = dropDown.getOptions();
 		
-		dropDown.getOptions().get(1).click();
+		//dropDown.getOptions().get(1).click();
 		
-		
+		options.get(4).click();
 		
 		
 		int size = options.size();
 		System.out.println(size);
-		
-		
+			
 		
 		for (int i = 0; i < size; i++) {
 			options.get(i).click();
