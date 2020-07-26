@@ -1,0 +1,5 @@
+Final Keyword:
+- A variable is declared with the final keyword, its value cannot be changed
+- The final keyword with a parameter variable, it means that the value of this variable cannot be changed anywhere in the function.
+- A method, declared with the final keyword, cannot​ be overridden or hidden by subclasses.
+- A class​ declared as a final class, cannot be subclassed
