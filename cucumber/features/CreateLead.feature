@@ -1,5 +1,6 @@
 Feature: Create Lead in Leaftaps
 
+@smoke @functional
 Scenario: TC003_Create a new lead in leaftaps
 
 Given Enter the username as demosalesmanager

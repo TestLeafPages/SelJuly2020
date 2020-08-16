@@ -64,11 +64,12 @@ public class Login extends BaseClass {
 
 	}
 	
-	/*
-	 * @But("errormessage should be displayed") public void errorMessage() {
-	 * System.out.println("error message");
-	 * 
-	 * }
-	 */
+	
+	  @But("errormessage should be displayed") 
+	  public void errorMessage() {
+	  System.out.println("error message");
+	  
+	  }
+	 
 
 }

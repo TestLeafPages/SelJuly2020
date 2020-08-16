@@ -8,9 +8,9 @@ public class CreateLead extends BaseClass{
 
 	@Given("enter companyname as TestLeaf")
 	public void enterompanyName() {
-		driver.findElementByLinkText("CRM/SFA").click();
+		//driver.findElementByLinkText("CRM/SFA").click();
 		
-	//	driver.findElementById("company").sendKeys("company name");
+		//driver.findElementById("company").sendKeys("company name");
 		System.out.println("company name");
 	}
 	

@@ -6,6 +6,7 @@ Feature: Leaftaps login functionality
 #And maximize the browser 
 #And apply implicitly wait
 
+@regression @smoke
 Scenario Outline: TC001_login with valid credential
 
 Given Enter the username as <username> 
@@ -19,7 +20,7 @@ Examples:
 |demoCSR|crmsfa|
 
 
-
+@functional
 Scenario: TC002_login with invalid password
 
 Given Enter the username as demoCSR
